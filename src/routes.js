@@ -5,7 +5,7 @@ import Lista from './Lista';
 
 function Rotas(){
     return(
-        <BrowserRouter basename='process.env.PUBLIC_URL'>
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element = {<Lista />} />
                 <Route path="/Formulario" element = {<Formulario />} />
